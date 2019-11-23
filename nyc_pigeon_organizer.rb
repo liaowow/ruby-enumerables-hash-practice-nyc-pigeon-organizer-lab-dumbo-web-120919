@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
   end
   
   unique_pigeon_arr.each do |unique_pigeon_name|
-    new_list[unique_pigeon_name] = Hash.new {|k. v| k[v] = []}
+    new_list[unique_pigeon_name] = Hash.new {|k v| k[v] = []}
     
     data.each do |attribute, hash_of_features|
       
