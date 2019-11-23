@@ -1,5 +1,7 @@
 def nyc_pigeon_organizer(data)
   data.each do |key, value|
-    data.is_a?(Hash)
+    if value.is_a?(Hash)
+      value.each do |
+    end
   end
 end
