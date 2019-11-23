@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
   data.each do |key, value|
     value.each do |inner_key, inner_value|
       new_list[inner_value] = {
-        :key => value[inner_key]
+        :key => inner_key
       }
     end
   end
