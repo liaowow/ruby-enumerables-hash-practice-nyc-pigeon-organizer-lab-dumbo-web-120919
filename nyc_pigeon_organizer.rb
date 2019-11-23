@@ -22,7 +22,7 @@ def nyc_pigeon_organizer(data)
       hash_of_features.each do |feature, name_arr|
         name_arr.each do |pigeon_name|
           if pigeon_name == unique_pigeon_name
-            arr_of_features << feature
+            arr_of_features << feature.to_s
           end
         end
       end
